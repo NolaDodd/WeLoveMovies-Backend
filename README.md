@@ -6,6 +6,8 @@ You've been hired on as a backend developer for a new startup called WeLoveMovie
 
 [DEPLOYED BACKEND](https://welovemovies-backend-282n.onrender.com/movies)
 
+[LINK TO FRONTEND](https://github.com/NolaDodd/WeLoveMovies-Frontend)
+
 #### URL Routes
 - /movies
 - /movies/:moviesId
