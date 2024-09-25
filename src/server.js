@@ -3,9 +3,6 @@ const { PORT = 5001 } = process.env;
 const app = require("./app");
 const knex = require("./db/connection");
 
-const app = require("./app");
-const knex = require("./db/connection");
-
 module.exports = async (req, res) => {
   try {
     await knex.migrate.latest();
