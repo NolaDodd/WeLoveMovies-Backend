@@ -19,13 +19,13 @@ return next({status: 404, message: `Movie cannot be found.`})
 
 async function listTheaterByMovie(req, res, next){
   const {movieId} = req.params
-  data = await moviesService.listTheaterByMovie(movieId)
+  const data = await moviesService.listTheaterByMovie(movieId)
   res.json({data})
 }
 
 async function listReviewsByMovie(req, res, next){
   const {movieId} = req.params
-  data = await moviesService.listReviewsByMovie(movieId)
+  const data = await moviesService.listReviewsByMovie(movieId)
   res.json({data})
 }
 
